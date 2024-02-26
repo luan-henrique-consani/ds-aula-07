@@ -1,0 +1,71 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #111111;
+}
+.conteiner{
+    background-color: #1e1e1e;
+    width: 900px;
+    height: 600px;
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+    transition: all 0.3s ease 0.3s;
+}
+.conteiner:hover{
+    box-shadow: 0 7px 15px 0 rgb(49, 49, 49);
+}
+.conteiner img{
+    width: 250px;
+}
+.conteiner input{
+    width: 670px;
+    border: none;
+    border-bottom: 1px solid whitesmoke;
+    background-color: #1e1e1e;
+    outline: none;
+    color: whitesmoke;
+    font-size: 15px;
+    font-family: 'Poppins',sans-serif;
+    position: relative;
+    top: -97px;
+}
+.conteiner .material-symbols-outlined{
+    text-align: left;
+    position: relative;
+    top: -44px;
+    left: -367px;
+    font-size: 40px;
+    color: rgb(218, 218, 218);
+}
+.conteiner h4{
+    margin: 0;
+    position: relative;
+    top: -22px;
+    left: -312px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 19px;
+    color: whitesmoke;
+}
+.conteiner button{
+    width: 100px;
+    height: 30px;
+    position: relative;
+    top: -45px;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    background-color: #202020;
+    color: whitesmoke;
+
+}
+.conteiner button:hover{
+    background-color: #353535;
+}
+.conteiner button:active{
+    background-color: #414141;
+}
