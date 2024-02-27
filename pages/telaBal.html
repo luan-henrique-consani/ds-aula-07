@@ -12,19 +12,46 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <title>tela do balconista - consani's</title>
-    <link rel="icon" href="./assets/consani.png">
+    <link rel="icon" href="./../assets/consani.png">
+    <link rel="stylesheet" href="./../style/telaBal.css">
 </head>
 
 <body>
     <main>
         <div class="lado">
             <img src="./../assets/consani.png" alt="logo da pizzaria">
-            <p>Benvenuto balconista, aqui é sua área de trabalho!</p>
+            <p id="txt1">Benvenuto balconista, <br> aqui é sua área de trabalho!</p>
             <div class="tabs">
+                <input type="radio" name="slider" id="Pedido" checked >
+                <input type="radio" name="slider" id="Pagamento">
                 <nav>
-                    <label for="" class="Pedido">Pedido</label>
-                    <label for="" class="Pagamento<">Pagamento</label>
+                    <label for="Pedido" class="Pedido">PEDIDOS</label>
+                    <label for="Pagamento" class="Pagamento<">PAGAMENTO</label>
                 </nav>
+                <section>
+                    <div class="tela tela-1">
+                        <div class="title">Faça o pedido dos clientes aqui!</div>
+
+                        <p>1. Sabor da pizza: </p>
+                        <input type="text">
+                        <p>2. Bebida: </p>
+                        <input type="text">
+                        <p>3. Valor da pizza:</p>
+                        <input type="text">
+
+                        <a href="#" id="cad">CADASTRAR</a>
+                        <a href="#" id="ed">EDITAR</a>
+                    </div>
+                    <div class="tela tela-2">
+                        <div class="title">Pagamento</div>
+                    </div>
+                </section>
+                <a href="./../index.html"><button>
+                    <span class="material-symbols-outlined">
+                        logout
+                        </span>
+                    Logout?
+                </button></a>
             </div>
         </div>
     </main>

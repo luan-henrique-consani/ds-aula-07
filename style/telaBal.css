@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+main .lado{
+    background-color: #1e1e1e;
+    width: 400px;
+    height: 923px;
+    display: grid;
+    place-items: left;
+    padding: 3px;
+    text-align: left;
+}
+main .lado img{
+    width: 250px;
+    position: relative;
+    left: 60px;
+}
+main .lado #txt1{
+    color: whitesmoke;
+    font-size: 25px;
+    font-family: 'Poppins',sans-serif;
+}
+main .lado label{
+    color: whitesmoke;
+    font-size: 25px;
+    font-family: 'Poppins',sans-serif;
+    width: 453px;
+    height: 50px;
+    text-align: center;
+}
+
+main .lado nav{
+    display: grid;
+    place-items: center;
+    position: relative;
+    top: 110px;
+    left: -584px;
+}
+main .lado nav .Pedido{
+    position: relative;
+    top: -50px;
+}
+
+main .lado nav label:hover{
+    background-color: #383838;
+}
+main .lado nav label:active{
+    background-color: #474747;
+}
+#Pedidos:checked ~ nav label .Pedido,
+#Pedidos:checked ~ nav label .Pagamento{
+    color: blueviolet;
+}
+input[type='radio']{
+    display: none;
+}
+section{
+    position: relative;
+    left: 400px;
+    top: -479px;
+    width: 1520px;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+section .tela{
+    display: none;
+}
+#Pedido:checked ~ section .tela-1{
+    display: block;
+}
+#Pagamento:checked ~ section .tela-2{
+    display: block;
+}
+.tabs button{
+    position: relative;
+    top: -600px;
+    left: 148px;
+}
+.material-symbols-outlined{
+    color: whitesmoke;
+
+}
+button{
+    background-color: #1e1e1e;
+    border: none;
+    color: whitesmoke;
+    font-family: 'Poppins',sans-serif;
+    text-align: center;
+}
+button:hover{
+    background-color: #363636;
+}
+button:active{
+    background-color: #4e4e4e;
+}
+.title{
+    font-size: 30px;
+    font-family: 'Poppins',sans-serif;
+    display: grid;
+    place-items: center;
+    margin: 40px;
+}
+.tela-1{
+    width: 1520px;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.tela-1 p{
+    font-family: 'Poppins',sans-serif;
+    font-size: 30px;
+    position: relative;
+    left: 504px;
+    top: 64px;
+}
+.tela-1 input{
+    width: 590px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 15px;
+    font-family: 'Poppins',sans-serif;
+    position: relative;
+    top: 46px;
+    left: 540px;
+}
+.tela-1 a{
+    font-family: 'Poppins',sans-serif;
+    font-size: 25px;
+    position: relative;
+    top: 323px;
+    text-decoration: none;
+    color: #1e1e1e;
+}
+.tela-1 #cad{
+    position: relative;
+    left: -180px;
+}
+.tela-1 #ed{
+    position: relative;
+    left: 340px;
+}
