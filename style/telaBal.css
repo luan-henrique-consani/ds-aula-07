@@ -114,7 +114,7 @@ button:active{
 }
 .tela-1 p{
     font-family: 'Poppins',sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     position: relative;
     left: 504px;
     top: 64px;
@@ -134,15 +134,28 @@ button:active{
     font-family: 'Poppins',sans-serif;
     font-size: 25px;
     position: relative;
-    top: 323px;
+    top: 423px;
     text-decoration: none;
     color: #1e1e1e;
 }
 .tela-1 #cad{
     position: relative;
     left: -180px;
+
 }
 .tela-1 #ed{
     position: relative;
     left: 340px;
+}
+
+.tela-1 table{
+    position: relative;
+    top: 104px;
+    left: 502px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 35px;
+    border: 1px solid;
+}
+.tela-1 td{
+    border: 1px solid;
 }

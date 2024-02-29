@@ -33,14 +33,28 @@
                         <div class="title">Faça o pedido dos clientes aqui!</div>
 
                         <p>1. Sabor da pizza: </p>
-                        <input type="text">
+                        <input type="text" id="pizza">
                         <p>2. Bebida: </p>
-                        <input type="text">
+                        <input type="text" id="bebida">
                         <p>3. Valor da pizza:</p>
-                        <input type="text">
+                        <input type="text" id="valor">
 
                         <a href="#" id="cad">CADASTRAR</a>
                         <a href="#" id="ed">EDITAR</a>
+
+                        <p>Aqui vai aparecer os pedidos:</p>
+                        <table>
+                            <tr>
+                                <th>Pizza</th>
+                                <th>Bebida</th>
+                                <th>Preço</th>
+                            </tr>
+                            <tr>
+                                <td>Peperoni</td>
+                                <td>Coca-zero 600ml</td>
+                                <td>65,90</td>
+                            </tr>
+                        </table>
                     </div>
                     <div class="tela tela-2">
                         <div class="title">Pagamento</div>
@@ -55,6 +69,7 @@
             </div>
         </div>
     </main>
+    <script src="./../js/telaBal.js"></script>
 </body>
 
 </html>
